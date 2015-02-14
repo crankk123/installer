@@ -7,8 +7,8 @@ class DATABASE_CONFIG
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'alka',
-		'database' => 'webinterface',
+		'password' => '',
+		'database' => '',
 		'prefix' => '',
 	);
 }

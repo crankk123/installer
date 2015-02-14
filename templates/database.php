@@ -23,43 +23,43 @@
 
 <form method="post">
 	<p>
-		<label>Database name </label> (The name of the database you want to run this script in)<br>
+		<label>Host</label> ("localhost".)<br>
+		<input class="title" type="text" name="host" value="<?php echo $host; ?>">
+	</p>
+	<p>
+		<label>Database name </label> ()<br>
 		<input class="title" type="text" name="database" value="<?php echo $database; ?>">
 	</p>
 	<p>
-		<label>Username</label> (Your MySQL username)<br>
+		<label>Username</label> ()<br>
 		<input class="title" type="text" name="username" value="<?php echo $username; ?>">
 	</p>
 	<p>
-		<label>Password</label> (...and MySQL password)<br>
+		<label>Password</label> ()<br>
 		<input class="title" type="password" name="password" value="<?php echo $password; ?>">
-	</p>
-	<p>
-		<label>Host</label> (You should be able to get this info from your web host, if "localhost" does not work.)<br>
-		<input class="title" type="text" name="host" value="<?php echo $host; ?>">
 	</p>
 	
 	<hr>
 	
 	<?php if ($goToNextStep) { ?>
-		<div class="success">Everything is ok! Go to next step...</div>
+		<div class="success"><?php echo $lang['sql_ok']; ?></div>
 
 		<a href="index.php" class="button negative">
-			<img src="css/blueprint/plugins/buttons/icons/cross.png" alt=""/> Abbrechen
+			<img src="css/blueprint/plugins/buttons/icons/cross.png" alt=""/> <?php echo $lang['cancel']; ?>
 		</a>		
 		
 		<input type="hidden" name="nextStep" value="importSQL">
 		<button type="submit" class="button positive">
-			<img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> Weiter
+			<img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> <?php echo $lang['next']; ?>
 		</button>
 	<?php } else { ?>
 		<a href="index.php" class="button negative">
-			<img src="css/blueprint/plugins/buttons/icons/cross.png" alt=""/> Abbrechen
+			<img src="css/blueprint/plugins/buttons/icons/cross.png" alt=""/> <?php echo $lang['cancel']; ?>
 		</a>
 		
 		<input type="hidden" name="nextStep" value="database">
 		<button type="submit" class="button positive">
-			<img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> Verbindung testen
+			<img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> <?php echo $lang['retry']; ?>
 		</button>
 	<?php } ?>
 </form>

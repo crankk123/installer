@@ -8,10 +8,6 @@ Language: English
 $lang = array();
 
 $lang['TITLE'] = 'Installation steps';
-$lang['HEADER_TITLE'] = 'My website header title';
-$lang['SITE_NAME'] = 'My Website';
-$lang['SLOGAN'] = 'My slogan here';
-$lang['HEADING'] = 'Heading';
 
 // Menu
 

@@ -1,6 +1,6 @@
 <h3><?php echo $lang['introduction']; ?></h3>
 
-<p><?php echo $lang['introduction_install']; ?> <b><?php  echo $product; ?></b> (Version: <?php echo $productVersion; ?>) <?php echo $lang['introduction_dev']; ?> <b><?php echo $company; ?></b>.</p>
+<p><?php echo $lang['introduction_install']; ?> <b><?php  echo $product; ?></b> (Version: <?php echo $productVersion; ?>) <?php echo $lang['introduction_dev']; ?> <b><?php echo $company; ?></b> <?php echo $lang['introduction_install_1']; ?>.</p>
 <select>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>

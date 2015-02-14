@@ -47,21 +47,18 @@ CREATE TABLE `ticket` (
 -- ----------------------------
 
 -- ----------------------------
--- Table structure for userdaten
+-- Table structure for members
 -- ----------------------------
-DROP TABLE IF EXISTS `userdaten`;
-CREATE TABLE `userdaten` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `benutzer` varchar(25) NOT NULL,
-  `passwort` varchar(25) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  PRIMARY KEY (`id`)
+DROP TABLE IF EXISTS `members`;
+CREATE TABLE `members` (
+  `member_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(100) DEFAULT NULL,
+  `lastname` varchar(100) DEFAULT NULL,
+  `login` varchar(100) NOT NULL DEFAULT '',
+  `passwd` varchar(32) NOT NULL DEFAULT '',
+  `group_id` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`member_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
-
--- ----------------------------
--- Records of userdaten
--- ----------------------------
-INSERT INTO `userdaten` VALUES ('1', 'admin', 'admin123', 'niclass1123@gmail.com');
 
 
 -- ----------------------------
