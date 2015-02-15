@@ -56,24 +56,7 @@ CREATE TABLE `members` (
   `lastname` varchar(100) DEFAULT NULL,
   `login` varchar(100) NOT NULL DEFAULT '',
   `passwd` varchar(32) NOT NULL DEFAULT '',
-  `group_id` varchar(100) DEFAULT NULL,
+  `email` varchar(5) NOT NULL,
+  `group` varchar(5) NOT NULL,
   PRIMARY KEY (`member_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
-
-
--- ----------------------------
--- Table structure for user_rechte
--- ----------------------------
-DROP TABLE IF EXISTS `user_rechte`;
-CREATE TABLE `user_rechte` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `UserID` int(11) NOT NULL,
-  `Recht` varchar(100) COLLATE latin1_general_ci NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
-
--- ----------------------------
--- Records of user_rechte
--- ----------------------------
-INSERT INTO `user_rechte` VALUES ('1', '1', 'Adminbereich');
-INSERT INTO `user_rechte` VALUES ('2', '1', 'User');
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;

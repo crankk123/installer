@@ -1,0 +1,98 @@
+10
+
+dir
+0
+https://webinterface-installer.googlecode.com:443/svn/trunk/%20webinterface-installer/templates
+https://webinterface-installer.googlecode.com:443/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8c44eaf7-3194-0cfa-f3b4-4dfa4925f402
+
+gnu.php
+file
+
+
+
+add
+
+importSQL.php
+file
+
+
+
+add
+
+filePermissions.php
+file
+
+
+
+add
+
+footer.php
+file
+
+
+
+add
+
+introduction.php
+file
+
+
+
+add
+
+requirements.php
+file
+
+
+
+add
+
+database.php
+file
+
+
+
+add
+
+done.php
+file
+
+
+
+add
+
+eula.php
+file
+
+
+
+add
+
+header.php
+file
+
+
+
+add
+

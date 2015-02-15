@@ -18,10 +18,12 @@ $lang['step4'] = 'Server requirements';
 $lang['step5'] = 'File permissions';
 $lang['step6'] = 'Database connection';
 $lang['step7'] = 'Import SQL';
-$lang['step8'] = 'Done';
+$lang['step8'] = 'Admin Account';
+$lang['step9'] = 'Done';
 //Textdeveloped by
 $lang['introduction'] = 'Introduction';
 $lang['introduction_install'] = 'You are about to install';
+$lang['introduction_install_1'] = '';
 $lang['introduction_dev'] = 'developed by';
 $lang['eula_info'] = 'You must accept the EULA to continue!';
 $lang['eula_accept'] = 'I accept the "EULA"';

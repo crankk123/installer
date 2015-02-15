@@ -10,8 +10,7 @@ $lang = array();
 $lang['TITLE'] = 'Installationsschritte';
 
 // Menu
-
-$lang['step1'] = 'Einführung';
+$lang['step1'] = 'Einf&uuml;hrung';
 $lang['step2'] = 'EULA';
 $lang['step3'] = 'GNU';
 $lang['step4'] = 'Server-Anforderungen';
@@ -20,7 +19,7 @@ $lang['step6'] = 'Datenbankverbindung';
 $lang['step7'] = 'Import SQL';
 $lang['step8'] = 'Fertig';
 //Textdeveloped by
-$lang['introduction'] = 'Einführung';
+$lang['introduction'] = 'Einf&uuml;hrung';
 $lang['introduction_install'] = 'Sie sind dabei das';
 $lang['introduction_install_1'] = 'zu installieren';
 $lang['introduction_dev'] = 'entwickelt von';

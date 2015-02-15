@@ -1,5 +1,5 @@
 <?php
-	$config['header'] = "Webinterface Installer";
+	$config['header'] = "Webinterface Setup";
 	$config['applicationPath'] = "/";
 	$config['database_file'] = "config/database.php";
 	
