@@ -41,8 +41,7 @@
 				<li <?php if ($step == "filePermissions") echo "class='current'"; ?>><?php echo $lang['step5']; ?></li>
 				<li <?php if ($step == "database") echo "class='current'"; ?>><?php echo $lang['step6']; ?></li>
 				<li <?php if ($step == "importSQL") echo "class='current'"; ?>><?php echo $lang['step7']; ?></li>
-				<li <?php if ($step == "adminaccount") echo "class='current'"; ?>><?php echo $lang['step8']; ?></li>
-				<li <?php if ($step == "done") echo "class='current'"; ?>><?php echo $lang['step9']; ?></li>
+				<li <?php if ($step == "done") echo "class='current'"; ?>><?php echo $lang['step8']; ?></li>
 	        </ol>
 		</div>
 		<div class="span-18 last">

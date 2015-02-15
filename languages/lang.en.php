@@ -18,8 +18,8 @@ $lang['step4'] = 'Server requirements';
 $lang['step5'] = 'File permissions';
 $lang['step6'] = 'Database connection';
 $lang['step7'] = 'Import SQL';
-$lang['step8'] = 'Admin Account';
-$lang['step9'] = 'Done';
+$lang['step8'] = 'Done';
+
 //Textdeveloped by
 $lang['introduction'] = 'Introduction';
 $lang['introduction_install'] = 'You are about to install';

@@ -23,7 +23,7 @@
 
 <?php if (count($errors) == 0) { ?>
 	<form method="post">
-		<input type="hidden" name="nextStep" value="adminaccount">
+		<input type="hidden" name="nextStep" value="done">
 		<button type="submit" class="button positive">
 			<img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> Weiter
 		</button>
